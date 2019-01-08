@@ -1,5 +1,7 @@
 **fuelphp mssql driver for Sql Server   2016+**  
-fuelphp sqlserver driver not work for me. so i wrote my own driver.  
+fuelphp sqlserver driver not work for me. so i wrote my own driver by fuelphp mysql driver.  
+it is not so good, but work.  
+if yiu use it, please give me feedback.  
 just copy file to **core/classes/database**  
 add file path to add file path to **core/bootstrap.php**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fuel\\Core\\Database_Mssql_Connection' => COREPATH.'classes/database/mssql/connection.php',  
@@ -28,3 +30,4 @@ return array(
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;profiling' => false,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;),  
 );  
+please send me feedback
