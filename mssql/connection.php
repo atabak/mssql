@@ -270,7 +270,7 @@ class Database_Mssql_Connection extends \Database_PDO_Connection
             }
 
             // Return an iterator of results
-            return new \Database_Result_Cached($result, $sql, $as_object);
+            return new \Database_Mssql_Cached($result, $sql, $as_object);
         }
         elseif ($type === \DB::INSERT)
         {
